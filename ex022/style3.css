@@ -1,0 +1,26 @@
+
+body{
+    background-image: linear-gradient(to bottom, rgb(75, 209, 97), rgb(69, 185, 69) ,rgba(177, 165, 165, 0.288));
+}
+.bloco{
+    background-image: url('imagens/wallpaper002.jpg');
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+.bloco#b1{
+    background-position: left top;
+
+}
+.bloco#b2{
+    background-position: left center;
+
+}
+.bloco#b3{
+    background-position: right bottom;
+
+}
+.bloco#b4{
+    background-position: center center;
+}
