@@ -1,0 +1,35 @@
+
+table{
+    width: 300px;
+    height: 100px;
+    border-collapse: collapse;
+    position: relative;
+}
+tbody > tr:nth-child(2n){
+    background-color: lightsteelblue;
+}
+caption{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: rgba(159, 161, 163, 0.363);
+}
+thead, tfoot{
+    background-color: rgba(14, 4, 4, 0.747);
+    color: white;
+}
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: rgba(14, 4, 4, 0.747) ;
+} 
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.numero{
+    text-align: right;
+}
