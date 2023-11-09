@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*estilos para impressoras*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html{
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+/*com esta tag o menu não aparecerá na impressão*/
+menu{
+    display: none;
+}
+article{
+    width: 100%;
+}
+/*com esta tag esse comentário aparecerá na impressão*/
+article::after{
+    content: "Esse artigo foi impresso através do site www.francis.com";
+}
