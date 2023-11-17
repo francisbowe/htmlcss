@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    i#burger{ /*serve para esconder hamburguer o menu em telas grandes*/
+        display: none;
+    }
+    menu{ /*serve para mostrar o menu em telas grandes*/
+        display: block;
+    }
+
+    menu li{ /*serve para colocar o menu em linhas*/
+        display: inline-block;
+    }
+
+    main{
+        width: 768px;
+    }
+}
