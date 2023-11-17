@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /*ESTILO PARA CONTEUDO VISTO EM PAISAGEM*/
+
+body{
+    /*adicionando imagem no fundo site de modo retrato*/
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
+}

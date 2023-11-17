@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /*ESTILO PARA CONTEUDO VISTO EM RETRATO*/
+
+body{
+    /*adicionando imagem no fundo site de modo retrato*/
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}
