@@ -13,7 +13,7 @@
     
 }
 
-.botoes{
+/*.botoes{
    background-color: white;
    border-radius: 3px;
    border: none;
@@ -44,4 +44,38 @@
     margin: auto;
     opacity: 1;
    
-}
+}*/
+
+.botoes{
+    background-color: white;
+    border-radius: 3px;
+    border: none;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    left: 15%;
+    font-size: 1em;
+    width: 25px;
+    /*Escondendo o texto caso ultrapasse as larguras do botão*/
+    overflow:hidden;
+    /*Transição do tamanho do botão*/
+    transition: width 0.7s ease-in-out;
+    display: inline-flex;
+    /*Alinhando o ícone e o texto*/
+    align-items: baseline;
+ }
+ 
+ #btext {
+     padding-left: 5px;
+ }
+ 
+ #btext a {
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+ }
+ .botoes:hover {
+     width: 200px;
+     justify-content: center;
+     padding: 5px;
+     cursor: pointer;
+ }
