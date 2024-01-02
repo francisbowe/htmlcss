@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formular de Regitro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Formulario de Registro</h1>
@@ -17,16 +18,26 @@
         </fieldset>
         <fieldset>
             <legend>Especifica o tipo de conta (Importante)</legend>
-            <input type="radio" name="conta" id="pessoal" checked> <label for="pessoal">Pessoal</label>
-            <input type="radio" name="conta" id="empresarial"> <label for="empresarial">Empresarial</label>
+            <label for="pessoal"> <input type="radio" name="conta" id="pessoal" checked class="linha">Pessoal </label> 
+
+             <label for="empresarial"> <input type="radio" name="conta" id="empresarial" class="linha">Empresarial</label>
 
         </fieldset>
         <fieldset>
             <label for="img">Add sua foto de perfil: <input type="file" name="img" id="img"></label>
             <label for="idade">Apresente a sua idade <input type="number" name="idade" id="idade" minlength="13"></label>
-            <label for="dec"><textarea name="desc" id="desc" cols="30" rows="10"></textarea></label>
+            <label for="referrer">Como conheceu a gente?
+                <select id="referrer" name="referrer">
+                  <option value="">(select one)</option>
+                  <option value="1">freeCodeCamp News</option>
+                  <option value="2">freeCodeCamp YouTube Channel</option>
+                  <option value="3">freeCodeCamp Forum</option>
+                  <option value="4">Other</option>
+                </select>
+              </label>
+            <label for="dec"><textarea name="desc" id="desc" cols="30" rows="10" placeholder="Digite aqui a sua biagrafia..."></textarea></label>
         </fieldset>
-       <input type="checkbox" name="confi" id="confi"> <label for="confi">Aceita os <a href="">termos de condições</a></label>
+       <label for="confi"><input type="checkbox" name="confi" id="confi" class="linha">Aceita os <a href="">termos de condições</a></label>
         <input type="submit" value="Enviar">
     </form>
 </body>
