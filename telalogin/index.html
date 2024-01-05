@@ -9,23 +9,24 @@
 </head>
 <body>
     <div class="container">
-        
         <div class="dados">
             <h1>Bem-Vindo</h1>
-            <p>Faça o login para ter acesso aos dados...</p>
+            <p>Faça o login para ter acesso aos dados...
+            </p>
             <form action="" method="post" class="formulario">
                 <div class="email">
-                    
-                    <label for="email">Email: <input type="email" name="email" id="email" required></label>
+    
+                     <input  type="email" name="email" id="email" required placeholder="Email">
                 </div>
-
+    
                 <div class="senha">
-                 
-                    <label for="senha">Senha:     <input type="password" name="senha" id="senha" pattern="[a-Z0-{8}]" autocomplete="off" required></label>
+    
+                    <input type="password" name="senha" id="senha" pattern="[a-Z0-{8}]"
+                     autocomplete="off" required placeholder="Senha">
                 </div>
-                <p><a href="">Criar conta</a></p> <p><a href="">Esqueceu senha</a></p>
-
-                <input type="submit" value="Entrar">
+                <input id="btentrar" type="submit" value="Entrar">
+                <p id="p"><a href="">Criar conta</a></p>
+                <p id="p"><a href="">Esqueceu senha</a></p>
             </form>
         </div>
 
