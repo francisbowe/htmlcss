@@ -1,0 +1,15 @@
+Aprenda tipografia criando um rótulo nutricional
+
+Passo 18
+A propriedade letter-spacing pode ser usada para ajustar o espaço entre cada caractere de texto em um elemento.
+
+Dê ao seletor h1 uma propriedade letter-spacing definida como 0.15px para deixá-los um pouco mais afastados.
+
+O pseudosseletor :not pode ser usado para selecionar todos os elementos que não correspondem à determinada regra do CSS.
+
+div:not(#example) {
+  color: red;
+}
+A regra que vemos acima seleciona todos os elementos div sem uma id de example.
+
+Modifique o seletor de .daily-value p para excluir os elementos .no-divider.

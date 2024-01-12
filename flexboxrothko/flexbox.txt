@@ -1,0 +1,30 @@
+Cada elemento HTML é uma caixa própria, com seu próprio espaçamento e borda. A isso chamamos de Modelo de Caixa, ou Box Model.
+Nesse curso, você usará o CSS e o Box Model para criar suas próprias obras de arte retangulares ao estilo de Rothko.
+
+Aprenda o box model do CSS criando uma pintura de Rothko
+Passo 3
+No modelo de caixa do CSS, todos os elementos do HTML são tratados como uma caixa com quatro áreas.
+
+Passo 4
+O conteúdo é cercado por um espaço chamado preenchimento (padding), do mesmo modo que um plástico de bolha separa um item da caixa ao seu redor.
+
+Passo 5
+A margem é a área fora da caixa e pode ser usada para controlar o espaço entre outras caixas ou elementos.
+Aqui, o elemento inferior tem uma margem superior maior, empurrando-o mais para baixo na página
+
+Passo 8
+É hora de usar o CSS.
+Mesmo que a <div> não tenha texto, ela ainda é tratada como uma caixa com conteúdo. 
+Escreva uma nova regra de CSS que use o seletor .canvas e defina a width como 500 pixels. 
+Aqui está uma regra de CSS que define a largura da classe card como 300 pixels:
+
+Passo 14
+Use o preenchimento (padding) para ajustar o espaçamento dentro de um elemento.
+Em .frame, use a propriedade abreviada padding para aumentar o espaço entre os elementos .frame e .canvas em 50px. 
+A propriedade abreviada aumentará o espaço acima, abaixo, na esquerda e na direita da borda do elemento e da tela dentro dele.
+
+Passo 15
+Use margens para ajustar o espaçamento fora de um elemento.
+
+Usando a propriedade margin, dê ao elemento .frame uma margem vertical de 20px e uma margem horizontal de auto. 
+Isso moverá o frame para baixo 20 pixels e o centralizará na página na horizontal.
